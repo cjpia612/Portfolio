@@ -3,19 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
     <title>Cattleya CJ Pia</title>
 </head>
+<body style="background-image:url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm31-jj-24-d-paper_1.jpg?w=800&dpr=1&fit=default&crop=default&auto=format&fm=pjpg&q=75&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=b3fb0eb115f735dc19d87312663451a2)">
     <header>
         <nav class="navbar navbar-light bg-light">
-            <a class="navbar-brand mb-0 h1" href="index.html"> <div class= "bg-info text-white">Cattleya CJ Pia</div></a>
+            <a class="navbar-brand mb-0 h1" href="index.html"> <div class= "bg-info text-white p-3">Cattleya CJ Pia</div></a>
             <ul class="nav justify-content-end">
                 <li class="nav-item">
-                <a class="nav-link active" href="index.html">About Me</a>
+                <a class="nav-link active border-right" href="index.html">About Me</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                <a class="nav-link border-right" href="portfolio.html">Portfolio</a>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link" href="contact.html">Contact</a>
@@ -23,25 +25,33 @@
             </ul>
         </nav>
     </header>
-    <body style="background-color:#eaeded;">
-        <div class= "container" style="background-color: white;margin-top: 30px;max-width: 960px;">
-            <p class="h1"> Contact</p>
-            <hr>
-            <form>
-                <div class="form-group">
-                <label for="NameInput">Name</label>
-                <input type="name" class="form-control" id="NameInput" aria-describedby="nameInput" placeholder="John Smith">
-                </div>
-                <div class="form-group">
-                <label for="exampleInputeEmail1">Email</label>
-                <input type="email" class="form-control" id="exampleInputeEmail1" placeholder="example@gmail.com">
-                </div>
-                <div class="form-group">
-                    <label for="exampleFormControlTextarea1">Message</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
-                <button type="submit" class="btn btn-info">Submit</button>
-            </form>
+    <div class= "container" style="background-color: white;margin: 30px; width:760px !important;" >
+        <div class="row">
+            <div class="col-8"> 
+                <h1 style="color:darkcyan; padding-top: 1rem;"> Contact</h1>
+                <hr>
+                <form>
+                    <div class="form-group">
+                    <label for="NameInput">Name</label>
+                    <input type="name" class="form-control" id="NameInput" aria-describedby="nameInput" placeholder="John Smith">
+                    </div>
+                    <div class="form-group">
+                    <label for="exampleInputeEmail1">Email</label>
+                    <input type="email" class="form-control" id="exampleInputeEmail1" placeholder="example@gmail.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-info mb-2">Submit</button>
+                </form>
+            </div>
         </div>
-    </body>
+    </div> -->
+    <footer class="footer fixed-bottom mt-5 p-3 text-center "  style="background-color: darkgray;">
+        <div class="container"> 
+            <span class="text-white">&copy; Copyright CJ Pia</span> 
+        </div>
+    </footer> 
+</body>
 </html>
